@@ -1,4 +1,5 @@
-# OpenCV-Based-Real-Time-Face-Tracking-with-Servo-Control
+
+# OpenCV Based Real Time Face Tracking with Servo Control
 A real-time face tracking system that uses OpenCV for detection and a servo motor for dynamic camera alignment. This project performs real-time face tracking using OpenCV and controls a servo motor based on the X-coordinate of the detected face. If no face is detected, the servo performs a scanning motion. The servo is controlled via Arduino.
 
 ---
@@ -42,13 +43,15 @@ project/
 ---
 
 ## Usage
+
 1. Connect Arduino to your computer and attach the servo motor to the appropriate pin (e.g., D9).
 2. Update the serial port in `main.py` if needed:
 
-- On Linux/macOS:
+* On Linux/macOS:
+
 ```python
 arduino = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
-````
+```
 
 * On Windows:
 
@@ -57,10 +60,6 @@ arduino = serial.Serial('COM3', 9600, timeout=1)
 ```
 
 > Replace `COM3` with the port your Arduino is connected to (check in Arduino IDE → Tools → Port).
-
-
-
-
 
 3. Connect a camera to your computer and run:
 
@@ -82,7 +81,16 @@ python main.py
 
 ---
 
+## Demo Video
+
+Watch a demonstration of this project on YouTube:
+[![Face Tracking Servo Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+
+
+---
+
 ## License
 
 This project is open-source and free to use.
+
 
