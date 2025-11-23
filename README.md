@@ -42,13 +42,27 @@ project/
 ---
 
 ## Usage
-
 1. Connect Arduino to your computer and attach the servo motor to the appropriate pin (e.g., D9).
 2. Update the serial port in `main.py` if needed:
 
+- On Linux/macOS:
 ```python
 arduino = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
+````
+
+* On Windows:
+
+```python
+arduino = serial.Serial('COM3', 9600, timeout=1)
 ```
+
+> Replace `COM3` with the port your Arduino is connected to (check in Arduino IDE → Tools → Port).
+
+```
+
+İstersen ben README’nin **tamamını Windows/Linux uyumlu hâle getirip tekrar verebilirim**, böylece GitHub’a direkt koyabilirsiniz. Bunu yapayım mı?
+```
+
 
 3. Connect a camera to your computer and run:
 
