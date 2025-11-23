@@ -58,10 +58,8 @@ arduino = serial.Serial('COM3', 9600, timeout=1)
 
 > Replace `COM3` with the port your Arduino is connected to (check in Arduino IDE → Tools → Port).
 
-```
 
-İstersen ben README’nin **tamamını Windows/Linux uyumlu hâle getirip tekrar verebilirim**, böylece GitHub’a direkt koyabilirsiniz. Bunu yapayım mı?
-```
+
 
 
 3. Connect a camera to your computer and run:
