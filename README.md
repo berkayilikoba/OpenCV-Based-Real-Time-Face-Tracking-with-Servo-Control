@@ -84,7 +84,8 @@ python main.py
 ## Demo Video
 
 Watch a demonstration of this project on YouTube:
-[![Face Tracking Servo Demo]]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID](https://www.youtube.com/watch?v=gr1FLleszys))
+[Face Tracking Servo Demo](https://www.youtube.com/watch?v=gr1FLleszys)
+
 
 
 ---
